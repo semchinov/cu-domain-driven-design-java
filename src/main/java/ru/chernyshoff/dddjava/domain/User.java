@@ -8,5 +8,5 @@ public class User {
      private String username;
      private List<Form> forms;
      private List<Dialog> dialogs;
-     private List<UUID> likeIds;
+     private List<Like> likes;
 }

@@ -8,7 +8,7 @@ public class Form {
     private UUID userId ;
     private String name;
     private String description;
-    private List<UUID> likeIds;
+    private List<Like> likes;
     private List<Photo> photos;
 
     public static class Photo{
