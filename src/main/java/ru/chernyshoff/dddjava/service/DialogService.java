@@ -7,9 +7,7 @@ import java.util.UUID;
 
 public interface DialogService {
 
-    Dialog createDialog(UUID user1Id, UUID user2Id);
-
-    Dialog addMessageToDialog(UUID dialogId, UUID userId, String text, LocalDateTime time);
+    Dialog createD(Dialog dialog);
 
     UUID deleteDialog(UUID dialogId);
 

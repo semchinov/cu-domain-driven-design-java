@@ -6,8 +6,8 @@ import java.util.UUID;
 
 public interface LikeService {
 
-    Like createLike(UUID userId, UUID formId);
+    Like create(Like like);
 
-    void deleteLike(UUID userId, UUID formId);
+    void delete(Like like);
 
 }

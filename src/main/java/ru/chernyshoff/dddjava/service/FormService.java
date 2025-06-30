@@ -6,10 +6,12 @@ import java.util.UUID;
 
 public interface FormService {
 
-    Form createForm(UUID userId, String name, String description);
+    Form create(Form form);
 
-    Form updateForm(UUID formId, String newName, String newDescription);
+    Form get(UUID formId);
 
-    UUID deleteForm(UUID formId);
+    void update(Form form);
+
+    void delete(UUID formId);
 
 }
