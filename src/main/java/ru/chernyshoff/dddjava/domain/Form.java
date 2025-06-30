@@ -5,14 +5,18 @@ import java.util.UUID;
 
 public class Form {
     private UUID id;
-    private UUID userId ;
     private String name;
     private String description;
-    private List<Like> likes;
-    private List<Photo> photos;
+//    private List<Photo> photos;
 
-    public static class Photo{
-        private String url;
-        private String description;
-    }
+    private UUID userId;
+    private List<Like> likes;
+
+
+//    public static class Photo {
+//        private String url;
+//        private String description;
+//    }
+    // TODO:
+    //    Подумать про фото как сущность (может приделать ее к сообщению)
 }
