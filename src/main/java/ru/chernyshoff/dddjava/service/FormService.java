@@ -8,7 +8,7 @@ public interface FormService {
 
     public Form createForm(UUID userId, String name, String description);
 
-    public Form updateForm(UUID formId, String name, String description);
+    public Form updateForm(UUID formId, String newName, String newDescription);
 
     public UUID deleteForm(UUID formId);
 
