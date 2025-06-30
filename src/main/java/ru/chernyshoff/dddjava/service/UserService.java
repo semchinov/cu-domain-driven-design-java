@@ -6,10 +6,10 @@ import java.util.UUID;
 
 public interface UserService {
 
-    public User createUser(String username);
+    User createUser(String username);
 
-    public User updateUser(UUID userId, String newUsername);
+    User updateUser(UUID userId, String newUsername);
 
-    public UUID deleteUser(UUID userId);
+    UUID deleteUser(UUID userId);
 
 }
